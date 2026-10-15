@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# Binarios de modelo > 50 MB: no caben en GitHub (límite 100 MB). Se regeneran con
+# `python fuentes/train.py` y quedan en el registro local de MLflow (ver README, deuda técnica).
