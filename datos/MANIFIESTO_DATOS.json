@@ -1,0 +1,14 @@
+{
+  "datos_ini/train.csv": {
+    "version": "1.0.0",
+    "sha256": "038f25690a65149c94f86ddd3deceda20c037a5cfd754cafdfc539a72992f2ed",
+    "filas": 913000,
+    "fuente": "Kaggle — Store Item Demand Forecasting Challenge (train.csv)"
+  },
+  "datos_limp/ventas_sku_sucursal_limpio.csv.gz": {
+    "version": "1.1.0",
+    "sha256_contenido": "c19ee1c4f796cb2c538ea74e4ce8cfb7808385b5079786fe62a7c7ccb564e256",
+    "filas": 913000,
+    "generado_por": "fuentes/datos_prep.py"
+  }
+}
