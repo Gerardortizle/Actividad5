@@ -4,3 +4,4 @@ __pycache__/
 .DS_Store
 # Binarios de modelo > 50 MB: no caben en GitHub (límite 100 MB). Se regeneran con
 # `python fuentes/train.py` y quedan en el registro local de MLflow (ver README, deuda técnica).
+mlruns/1/models/m-ce98b0f79e1a40d4809c0ac769b162af/artifacts/model.skops
