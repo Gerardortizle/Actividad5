@@ -114,3 +114,11 @@ El experimento `DEMANDA-IA_FaseI_baseline_SKU_sucursal` tiene 30 corridas:
 - 1 corrida con la comparación estadística.
 
 Las capturas están en `evidencias/mlflow/`.
+
+## Publicar en GitHub
+
+```bash
+git remote add origin https://github.com/<tu_usuario>/Actividad5.git
+git push -u origin main --tags      # --tags publica datos-v1.0.0, datos-v1.1.0 y modelo-v1.2.0
+```
+Antes del primer commit propio, configura tu identidad con `git config user.email "<tu correo de GitHub>"`.
