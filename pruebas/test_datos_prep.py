@@ -1,4 +1,12 @@
-"""Prueba de robustez: el pipeline debe detectar y corregir cada tipo de error
+"""
+Project : Act 5. Baseline de pronóstico SKU–sucursal JGOL
+
+    Name: José Gerardo Ortiz Leñero
+    Matricula: AL07182099
+    Date: Octubre 18 2026
+    Universidad TecMilenio
+    
+Prueba de robustez: el pipeline debe detectar y corregir cada tipo de error
 que produce una exportación real de punto de venta (POS). Ejecutar: python pruebas/test_datos_prep.py"""
 import sys
 from pathlib import Path
