@@ -1,6 +1,15 @@
 """
+Project : Act 5. Baseline de pronóstico SKU–sucursal JGOL
+
+    Name: José Gerardo Ortiz Leñero
+    Matricula: AL07182099
+    Date: Octubre 18 2026
+    Universidad TecMilenio
+
+**Caso de uso:** *Farmacias Occidente Salud* (cadena ficticia, 140 sucursales en el occidente de México)
+
 datos_prep.py — Funciones de limpieza, estandarización, validación y versionado
-del dataset temporal SKU–sucursal para DEMANDA-IA (Farmacias Occidente Salud, Fase I).
+del dataset temporal SKU–sucursal para DEMANDA-IA (Farmacias Occidente Salud).
 
 Cada regla de limpieza tiene un criterio explícito (ver REGLAS) y queda contabilizada
 en un reporte de calidad (JSON) para que el proceso sea auditable y reproducible.
@@ -8,6 +17,7 @@ en un reporte de calidad (JSON) para que el proceso sea auditable y reproducible
 Uso desde consola (desde la raíz del repositorio):
     python fuentes/datos_prep.py
 """
+
 from __future__ import annotations
 
 import hashlib
