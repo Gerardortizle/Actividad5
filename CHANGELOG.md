@@ -21,7 +21,7 @@ Formato basado en *Keep a Changelog* y versionado semántico. Las versiones de *
 ### Cambiado
 - `.gitignore` excluye el binario de Random Forest (130.8 MB, supera el límite de GitHub).
 
-## [datos-v1.1.0] — 2026-10-15 · Dataset limpio y estandarizado
+## [datos-v1.1.0] — 2026-10-18 · Dataset limpio y estandarizado
 ### Agregado
 - `fuentes/datos_prep.py` con nueve reglas de limpieza (R1–R9), reporte de calidad JSON y manifiesto con SHA-256.
 - `datos/datos_limp/ventas_sku_sucursal_limpio.csv.gz`: 913,000 filas, 500 series, sin nulos. SHA-256 del contenido: `c19ee1c4…e256`.
@@ -31,7 +31,7 @@ Formato basado en *Keep a Changelog* y versionado semántico. Las versiones de *
 - 0 llaves inválidas, 0 duplicados exactos o de llave, 0 negativos, 0 días faltantes y 0 imputaciones.
 - 1,412 anomalías marcadas (0.15 %): 1,286 picos y 126 caídas. Se conservan.
 
-## [datos-v1.0.0] — 2026-10-18 · Datos originales
+## [datos-v1.0.0] — 2026-10-15 · Datos originales
 ### Agregado
 - Estructura del repositorio y `requirements.txt` con versiones exactas.
 - `datos/datos_ini/train.csv` (Kaggle *Store Item Demand Forecasting Challenge*), sin modificaciones. SHA-256 `038f25690a65149c94f86ddd3deceda20c037a5cfd754cafdfc539a72992f2ed`.
