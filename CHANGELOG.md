@@ -31,7 +31,7 @@ Formato basado en *Keep a Changelog* y versionado semántico. Las versiones de *
 - 0 llaves inválidas, 0 duplicados exactos o de llave, 0 negativos, 0 días faltantes y 0 imputaciones.
 - 1,412 anomalías marcadas (0.15 %): 1,286 picos y 126 caídas. Se conservan.
 
-## [datos-v1.0.0] — 2026-10-15 · Datos originales
+## [datos-v1.0.0] — 2026-10-18 · Datos originales
 ### Agregado
 - Estructura del repositorio y `requirements.txt` con versiones exactas.
 - `datos/datos_ini/train.csv` (Kaggle *Store Item Demand Forecasting Challenge*), sin modificaciones. SHA-256 `038f25690a65149c94f86ddd3deceda20c037a5cfd754cafdfc539a72992f2ed`.
