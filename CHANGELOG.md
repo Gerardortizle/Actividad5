@@ -2,7 +2,7 @@
 
 Formato basado en *Keep a Changelog* y versionado semántico. Las versiones de **datos** y de **modelo** se etiquetan en Git; los hashes SHA-256 están en `datos/MANIFIESTO_DATOS.json`.
 
-## [modelo-v1.2.0] — 2026-10-15 · Baseline entrenado y registrado
+## [modelo-v1.2.0] — 2026-10-18 · Baseline entrenado y registrado
 ### Agregado
 - Ejecución completa de `fuentes/train.py` desde `entrena.ipynb` (commit de código `b43a8b8`), con 30 corridas en el experimento `DEMANDA-IA_FaseI_baseline_SKU_sucursal`.
 - Grid Search con validación temporal de 3 folds para tres algoritmos:
