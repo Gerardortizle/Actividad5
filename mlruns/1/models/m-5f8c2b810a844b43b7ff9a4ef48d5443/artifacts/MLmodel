@@ -1,0 +1,47 @@
+artifact_path: /content/Actividad5/mlruns/1/models/m-5f8c2b810a844b43b7ff9a4ef48d5443/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.15
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.6.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+    - sklearn.compose._column_transformer._RemainderColsList
+is_signature_from_type_hint: false
+mlflow_version: 3.17.1
+model_id: m-5f8c2b810a844b43b7ff9a4ef48d5443
+model_size_bytes: 122451
+model_uuid: m-5f8c2b810a844b43b7ff9a4ef48d5443
+prompts: null
+run_id: 60b7be4edd1d417ab88f5acbaedac779
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "sucursal_id", "required": true}, {"type": "long",
+    "name": "sku_id", "required": true}, {"type": "integer", "name": "dia_semana",
+    "required": true}, {"type": "integer", "name": "mes", "required": true}, {"type":
+    "integer", "name": "dia_mes", "required": true}, {"type": "integer", "name": "semana_anio",
+    "required": true}, {"type": "integer", "name": "es_fin_semana", "required": true},
+    {"type": "float", "name": "lag_7", "required": true}, {"type": "float", "name":
+    "lag_14", "required": true}, {"type": "float", "name": "lag_21", "required": true},
+    {"type": "float", "name": "lag_28", "required": true}, {"type": "float", "name":
+    "lag_364", "required": true}, {"type": "float", "name": "media_7", "required":
+    true}, {"type": "float", "name": "media_28", "required": true}, {"type": "float",
+    "name": "std_28", "required": true}, {"type": "float", "name": "media_dow_4",
+    "required": true}, {"type": "float", "name": "tendencia", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-10-18 18:54:02.415101'
