@@ -352,8 +352,9 @@ def main(args) -> None:
             if nombre == "xgboost":
                 info = mlflow.xgboost.log_model(modelo, **kw)
             else:   # skops: se declara explícitamente el único tipo confiable que usa el bosque
-                info = mlflow.sklearn.log_model(modelo, skops_trusted_types=["sklearn.tree._tree.Tree"]
-                                                if nombre == "random_forest" else None, **kw)
+                 info = mlflow.sklearn.log_model(modelo, skops_trusted_types=[
+                    "sklearn.tree._tree.Tree",
+                    "sklearn.compose._column_transformer._RemainderColsList"], **kw)
             preds[nombre] = p
             resumen_metricas.append({"modelo": nombre, **m, "cv_mae_media": -mejor["mean_test_mae"],
                                      "cv_mae_std": mejor["std_test_mae"], "seg_entrenamiento": seg_fit,
