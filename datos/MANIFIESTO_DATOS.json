@@ -7,7 +7,7 @@
   },
   "datos_limp/ventas_sku_sucursal_limpio.csv.gz": {
     "version": "1.1.0",
-    "sha256_contenido": "c19ee1c4f796cb2c538ea74e4ce8cfb7808385b5079786fe62a7c7ccb564e256",
+    "sha256_contenido": "fb5fa9b345d0883dea3887628fe8be5c1ce8119a7b1f998eeeb3a6b98315d51c",
     "filas": 913000,
     "generado_por": "fuentes/datos_prep.py"
   }
