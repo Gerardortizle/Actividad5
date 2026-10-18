@@ -103,7 +103,7 @@ Las rejillas de hiperparámetros, con su justificación técnica, están documen
 - **Integridad:** `datos/MANIFIESTO_DATOS.json` guarda el SHA-256 de cada versión. `train.py` registra el hash del contenido limpio como tag de cada corrida.
 - **Modelos:** registro de MLflow `demanda_ia_pronostico_sku_sucursal`, con 3 versiones (ridge, random_forest y xgboost). El alias `campeon` apunta a la versión 3 (XGBoost). El proceso nocturno cargaría `models:/demanda_ia_pronostico_sku_sucursal@campeon`.
 
-> **Nota:** el binario del Random Forest (~130 MB) supera el límite de 100 MB de GitHub, por eso está excluido en `.gitignore`. Se regenera con `train.py`. Esto aparece registrado como deuda técnica en el reporte.
+> **Nota:** el binario del Random Forest (mas de 100 MB) supera el límite de 100 MB de GitHub, por eso está excluido en `.gitignore`. Se regenera con `train.py`. Esto aparece registrado como deuda técnica en el reporte.
 
 ## Evidencia de MLflow
 
