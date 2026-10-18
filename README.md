@@ -37,7 +37,7 @@ Actividad5/
 │   └── mlflow/          # capturas del panel de MLflow
 ├── mlflow.db            # backend de seguimiento (SQLite): corridas, parámetros, métricas, registro
 ├── mlruns/              # artefactos de MLflow (gráficas, CSV, modelos)
-├── reporte/             # reporte técnico (Word y PDF)
+├── reporte/             # reporte técnico (PDF)
 ├── requirements.txt     # versiones exactas
 ├── README.md
 └── CHANGELOG.md
