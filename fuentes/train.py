@@ -1,4 +1,12 @@
 """
+Project : Act 5. Baseline de pronóstico SKU–sucursal JGOL
+
+    Name: José Gerardo Ortiz Leñero
+    Matricula: AL07182099
+    Date: Octubre 18 2026
+    Universidad TecMilenio
+
+**Caso de uso:** *Farmacias Occidente Salud* (cadena ficticia, 140 sucursales en el occidente de México)
 train.py — Entrenamiento, ajuste (Grid Search + validación cruzada temporal),
 evaluación y registro en MLflow del baseline de pronóstico de DEMANDA-IA (Fase I).
 
