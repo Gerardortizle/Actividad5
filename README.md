@@ -47,8 +47,7 @@ Actividad5/
 
 ### Opción A · Google Colab
 1. Abre `fuentes/entrena.ipynb` en Colab.
-2. En la primera celda, sustituye `URL_REPO` por la URL de tu repositorio.
-3. Ejecuta todo. Si pip actualiza pandas, reinicia el entorno y vuelve a ejecutar.
+2. Ejecuta todo. Si pip actualiza pandas, reinicia el entorno y vuelve a ejecutar.
 
 ### Opción B · Local
 ```bash
